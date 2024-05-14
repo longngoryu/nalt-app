@@ -20,7 +20,7 @@ export default function Sidebar() {
               className="flex items-center h-14 gap-x-4 px-2 bg-[#F5FFFE]"
               href="/"
             >
-              <Image className="w-6 fill-none" src={home} alt="home icon" />
+              <Image className="w-6" src={home} alt="home icon" />
               <p className="text-[#4D736F] font-medium">Home</p>
             </Link>
           </li>
