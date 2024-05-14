@@ -17,36 +17,51 @@ export default function Sidebar() {
         <ul className="flex-1 relative flex flex-col gap-y-2">
           <li>
             <Link
-              className="flex items-center h-14 gap-x-2 px-2 bg-[#F5FFFE]"
+              className="flex items-center h-14 gap-x-4 px-2 bg-[#F5FFFE]"
               href="/"
             >
-              <Image className="w-6" src={home} alt="home icon" />
-              <p>Home</p>
+              <Image className="w-6 fill-none" src={home} alt="home icon" />
+              <p className="text-[#4D736F] font-medium">Home</p>
             </Link>
           </li>
           <li>
-            <Link className="flex items-center h-14 gap-x-2 px-2" href="#">
+            <Link
+              className="flex items-center h-14 gap-x-4 px-2 hover:bg-[#F5FFFE]"
+              href="#"
+            >
               <Image className="w-6" src={statistic} alt="statistic icon" />
-              <p>Statistic</p>
+              <p className="text-[#5B5B5B] font-medium hover:text-[#4D736F]">
+                Statistic
+              </p>
             </Link>
           </li>
           <li>
-            <Link className="flex items-center h-14 gap-x-2 px-2" href="#">
+            <Link
+              className="flex items-center h-14 gap-x-4 px-2 hover:bg-[#F5FFFE]"
+              href="#"
+            >
               <Image className="w-6" src={wallet} alt="wallet icon" />
-              <p>My wallet</p>
+              <p className="text-[#5B5B5B] font-medium hover:text-[#4D736F]">
+                My wallet
+              </p>
             </Link>
           </li>
           <li>
-            <Link className="flex items-center h-14 gap-x-2 px-2" href="#">
+            <Link
+              className="flex items-center h-14 gap-x-4 px-2 hover:bg-[#F5FFFE]"
+              href="#"
+            >
               <Image className="w-6" src={profile} alt="profile icon" />
-              <p>My profile</p>
+              <p className="text-[#5B5B5B] font-medium hover:text-[#4D736F]">
+                My profile
+              </p>
             </Link>
           </li>
 
           <li className="absolute bottom-0 w-full">
-            <Link className="flex items-center h-14 gap-x-2 px-2" href="#">
+            <Link className="flex items-center h-14 gap-x-4 px-2" href="#">
               <Image className="w-6" src={logout} alt="logout icon" />
-              <p>Logout</p>
+              <p className="text-[#E5613E] text-lg font-semibold">Logout</p>
             </Link>
           </li>
         </ul>

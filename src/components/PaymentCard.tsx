@@ -17,7 +17,6 @@ export default function PaymentCard() {
         src={paymentCard}
         alt="payment card"
       />
-
       <div className="absolute top-10 left-6">
         <h3 className="text-sm mb-1">Total Balance</h3>
         <p className="text-2xl font-medium">$ 2,548.00</p>
